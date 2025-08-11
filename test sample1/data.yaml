@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 72
+names: ['Apples', 'Banana', 'Beans', 'Body Moisturizer', 'Bowl', 'Butter', 'Celery', 'Cheese', 'Chicken Chest', 'Eggs', 'Energy drink', 'Fruit', 'Ginger', 'Glass Bottle', 'Green vegetable', 'Hair clip', 'Hair serum', 'Icecream', 'Jam', 'Lamp', 'Lemon', 'Lid', 'Lipstick', 'Make up', 'Marshmallow', 'Masscara', 'Mayonnaise', 'Meat', 'Medicine', 'Milk', 'Moisturizer', 'Oil', 'Olives', 'Paper box', 'Paprika', 'Pickle', 'Pie', 'Pizza', 'Plastic bag', 'Plastic bottle', 'PlasticBox', 'Plate', 'Pork', 'Pot', 'Random', 'Salad', 'Sauce', 'Shrimp sauce', 'Smoke alarm', 'Soft toy', 'Spectacular', 'Spray', 'Spring onion', 'Tomato Puree', 'Toner', 'Tortilla', 'Umbrella', 'Vegetable', 'Vitamin C', 'Watermelon', 'Yogurt', 'banaa', 'bell pepper', 'bread', 'cabbage', 'carrot', 'carrots', 'cucumber', 'ketchup', 'kiwi', 'lettuce', 'pomogranate']
+
+roboflow:
+  workspace: computer-vision-flc0t
+  project: fridge-object-detection-ekeza
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/computer-vision-flc0t/fridge-object-detection-ekeza/dataset/4

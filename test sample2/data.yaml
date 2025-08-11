@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 26
+names: ['Banana', 'Cheese', 'Chicken Chest', 'Eggs', 'Ginger', 'Lemon', 'Marshmallow', 'Medicine', 'Milk', 'Paper box', 'Paprika', 'Plastic bag', 'Pork', 'Pot', 'Spring onion', 'Vegetable', 'Yogurt', 'banaa', 'bell pepper', 'bread', 'cabbage', 'carrots', 'cucumber', 'ketchup', 'kiwi', 'pomogranate']
+
+roboflow:
+  workspace: computer-vision-flc0t
+  project: fridge-object-detection-ekeza
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/computer-vision-flc0t/fridge-object-detection-ekeza/dataset/2
